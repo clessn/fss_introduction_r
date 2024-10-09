@@ -6,8 +6,8 @@ format:
   revealjs:
     mermaid: 
       theme: dark
-    theme: night
-    logo: img/logo.png
+    theme: simple
+    logo: img\logo_CLESSN.png
     footer: "Analyse de données avec R"
     transition: slide
     transition-speed: fast
