@@ -27,9 +27,14 @@ format:
 
 ## Objectifs de l'atelier{.smaller}
 
-Introduire R pour l'analyse de données. Les fonctions, les packages, les graphiques, les statistiques, etc.
+- Introduire R pour l'analyse de données.
+  - Les dataframes
+  - Les fonctions
+  - les packages 
+  - les graphiques
+  - les statistiques
 
-Le but est que vous puissiez sortir d'ici avec une compréhension de base de R et que vous soyez capable d'aller chercher des ressources pour continuer à apprendre.
+> Le but est que vous puissiez sortir d'ici avec une compréhension de base de R et que vous soyez capable d'aller chercher des ressources pour continuer à apprendre.
 
 ## Pourquoi cet atelier?
 
@@ -89,10 +94,12 @@ Comment écrire du code dans RStudio
 - Files
 - Plots
 
-## Concept important, le path
+## Concepts importants
 
 Vous devez savoir où vous êtes dans votre ordinateur pour pouvoir importer des données ou exporter des graphiques. 
 Votre R est toujours ouvert dans un dossier, vous devez savoir où il est pour pouvoir importer des données. 
+
+Savoir ce que vous voulez faire avant de commencer à écrire du code. La plus grosse erreur est de commencer à écrire du code sans savoir ce que vous voulez faire.
 
 ## Importer des données
 
@@ -130,6 +137,13 @@ Il est important de savoir comment importer ces données dans R.
 
 - modelsummary
 
+## Ressources
 
+Quoi faire quand ça ne fonctionne pas?
+
+- ChatGPT
+- Réessayer ChatGPT
+- La documentation de R
+- Google
 
 ## Conclusion
