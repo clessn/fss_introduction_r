@@ -13,17 +13,17 @@ format:
     transition-speed: fast
 ---
 
-## PLan de l'atelier
+## Plan de l'atelier
 
-9h à 12h
-Qui suis-je
-Êtes-vous quali ou quanti?
-Le cycle de la recherche partie 1 Le cycle de la recherche partie 2 R et RStudio
-Un cadeau!
+### 9h à 12h 
+- Qu'est-ce que l'analyse de données?
+- Pourquoi R?
+- Introduction à R et RStudio
 
-12h à 15h
-Atelier libre avec des mentors de la CLESSN 
-Exercices avec R
+
+### 12h à 15h
+- Atelier libre avec des mentors de la CLESSN 
+- Exercices avec R
 
 ## Objectifs de l'atelier{.smaller}
 
@@ -44,6 +44,7 @@ Exercices avec R
 - Comprendre la pertinence du logiciel de traitement de données R
 - Obtenir des ressources pour dédramatiser la science des données
 
+<<<<<<< HEAD
 ## Pourquoi cet atelier?
 
 ### Comprendre le monde autour de nous à travers des données
@@ -53,6 +54,11 @@ Exercices avec R
 - L'analyse de données permet de comprendre ces données et donc de comprendre le monde qui nous entoure
 
 
+=======
+:::{.notes}
+Tout est des données autours de nous,  
+:::
+>>>>>>> 2f4fdd5da47c297773b28d34dcb0622469b7dc43
 
 ## Qu'est-ce que l'analyse de données?
 
