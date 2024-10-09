@@ -1,0 +1,119 @@
+---
+title: Initiation à l'analyse de données avec R 
+author: Camille Pelletier<br>Laurence-Olivier M. Foisy
+institute: Université Laval
+format:
+  revealjs:
+    mermaid: 
+      theme: dark
+    theme: night
+    logo: img/logo.png
+    footer: "Analyse de données avec R"
+    transition: slide
+    transition-speed: fast
+---
+
+## Objectifs de l'atelier{.smaller}
+
+Introduire R pour l'analyse de données. Les fonctions, les packages, les graphiques, les statistiques, etc.
+
+Le but est que vous puissiez sortir d'ici avec une compréhension de base de R et que vous soyez capable d'aller chercher des ressources pour continuer à apprendre.
+
+## Pourquoi cet atelier?
+
+- Comprendre le monde autour de nous à travers des données
+- Compétences recherchées sur le marché du travail
+- Base solide pour la recherche académique
+- Comprendre la pertinence du logiciel de traitement de données R
+- Obtenir des ressources pour dédramatiser la science des données
+
+## Qu'est-ce que l'analyse de données?
+
+- Le but est de rendre les données compréhensibles
+- Il y a des millions de données qui sont générées chaque jour
+- L'analyse de données permet de comprendre ces données et donc de comprendre le monde qui nous entoure
+
+## Pourquoi R?
+
+Expliquer pourquoi R est un outil de choix pour l'analyse de données.
+Pourquoi on choisi R versus d'autres outils comme Stata et SPSS.
+
+- Open source
+- Communauté active
+- Packages
+- Reproductibilité
+- Très utilisé en science sociale
+
+## Présentation de la CLESSN
+
+Présenter nos travauxe et la variété de projets menés avec R
+
+Datagotchi, les histoires, les articles, les shiny, etc.
+
+- Datagotchi
+- Shiny catalogue
+- GPT
+- Analyse textuelle
+- Analyse de réseaux
+
+## Installer R et RStudio
+
+- C'est quoi la différence entre R et RStudio?
+- R est le moteur, RStudio est l'interface
+- RStudio facilite l'utilisation de R
+- RStudio est un IDE (Integrated Development Environment)
+
+## Une fois dans RStudio
+
+Les quatre fenêtres de RStudio
+Comment écrire du code dans RStudio
+
+- Console
+- Environment
+- Files
+- Plots
+
+## Concept important, le path
+
+Vous devez savoir où vous êtes dans votre ordinateur pour pouvoir importer des données ou exporter des graphiques. 
+Votre R est toujours ouvert dans un dossier, vous devez savoir où il est pour pouvoir importer des données. 
+
+## Importer des données
+
+Les données sont souvent dans des fichiers Excel, CSV, ou autres.
+Il est important de savoir comment importer ces données dans R.
+
+## L'analyse descriptive des données
+
+- Qu'est-ce que c'est?
+
+- table()
+- names()
+- hist()
+- summary()
+
+## Représentation graphique des données
+
+- Importance de la visualisation
+  - Qu'est-ce qu'une bonne visualisation graphique?
+  - Tufte
+
+- ggplot2
+  - Les layers
+
+- Shiny
+  - Créer des applications interactives
+
+## Analyse statistique
+
+- Les régressions
+- Les tests statistiques
+- Les modèles
+
+## Tableaux de régression
+
+- modelsummary
+
+
+
+## Conclusion
