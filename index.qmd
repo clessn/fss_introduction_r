@@ -13,17 +13,17 @@ format:
     transition-speed: fast
 ---
 
-## PLan de l'atelier
+## Plan de l'atelier
 
-9h à 12h
-Qui suis-je
-Êtes-vous quali ou quanti?
-Le cycle de la recherche partie 1 Le cycle de la recherche partie 2 R et RStudio
-Un cadeau!
+### 9h à 12h 
+- Qu'est-ce que l'analyse de données?
+- Pourquoi R?
+- Introduction à R et RStudio
 
-12h à 15h
-Atelier libre avec des mentors de la CLESSN 
-Exercices avec R
+
+### 12h à 15h
+- Atelier libre avec des mentors de la CLESSN 
+- Exercices avec R
 
 ## Objectifs de l'atelier{.smaller}
 
@@ -38,6 +38,10 @@ Le but est que vous puissiez sortir d'ici avec une compréhension de base de R e
 - Base solide pour la recherche académique
 - Comprendre la pertinence du logiciel de traitement de données R
 - Obtenir des ressources pour dédramatiser la science des données
+
+:::{.notes}
+Tout est des données autours de nous,  
+:::
 
 ## Qu'est-ce que l'analyse de données?
 
