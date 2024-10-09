@@ -36,16 +36,18 @@ format:
 
 > Le but est que vous puissiez sortir d'ici avec une compréhension de base de R et que vous soyez capable d'aller chercher des ressources pour continuer à apprendre.
 
-## Pourquoi cet atelier?
+## Pourquoi suivre cet atelier?
 
 - Comprendre le monde autour de nous à travers des données
 - Compétences recherchées sur le marché du travail
 - Base solide pour la recherche académique
 - Comprendre la pertinence du logiciel de traitement de données R
-- Obtenir des ressources pour dédramatiser la science des données
+- Obtenir des outils pour dédramatiser la science des données
 
 :::{.notes}
-Tout est des données autours de nous,  
+Tout est des données autours de nous. L'analyse de données permet de simplifier la réalité pour comprendre et expliquer des phénomènes ou des comportements dans le monde qui nous entoure.
+
+Pouvoir de prédiction: prédire comment certaines variables ou facteurs influencent d’autres variables ou événements. 
 :::
 
 ## Qu'est-ce que l'analyse de données?
