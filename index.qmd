@@ -13,6 +13,18 @@ format:
     transition-speed: fast
 ---
 
+## PLan de l'atelier
+
+9h à 12h
+Qui suis-je
+Êtes-vous quali ou quanti?
+Le cycle de la recherche partie 1 Le cycle de la recherche partie 2 R et RStudio
+Un cadeau!
+
+12h à 15h
+Atelier libre avec des mentors de la CLESSN 
+Exercices avec R
+
 ## Objectifs de l'atelier{.smaller}
 
 - Introduire R pour l'analyse de données.
