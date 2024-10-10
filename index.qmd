@@ -40,11 +40,11 @@ format:
 
 ::::{.columns}
 
-:::{.column}
+:::{.column width="70%"}
 
 - Base solide pour la recherche académique
 
-> Permet de comprendre la pertinence de l'utilisation d'un logiciel de traitement de données et d'obtenir des outils pour dédramatiser la science des données
+> Permet également de comprendre la pertinence de l'utilisation d'un logiciel de traitement de données et d'obtenir des outils pour dédramatiser la science des données
 
 :::
 
@@ -57,18 +57,18 @@ format:
 
 ## Pourquoi suivre cet atelier?{.smaller}
 
-#### Comprendre le monde autour de nous à travers des données
+<br><br>
 
-- Les données sont partout, mais pas nécessairement intelligibles dans leur forme « raw »
+### Comprendre le monde autour de nous à travers des données
 
-![](img/data.png){.absolute top=450 left=800 width="20%"}
-![](img/citizen.jpg){.absolute top=450 left=650 width="10%"}
+<br><br>
 
-> L'analyse de données permet de comprendre ces données, et donc de mieux comprendre le monde qui nous entoure
+![](img/data.png){.absolute top=300 left=800 width="40%"}
+![](img/citizen.jpg){.absolute top=450 left=600 width="10%"}
 
 
 :::{.notes}
-Tout est des données autours de nous. L'analyse de données permet de simplifier la réalité pour comprendre et expliquer des phénomènes ou des comportements dans le monde qui nous entoure.
+Les données sont partout, mais pas nécessairement compréhensible dans leur forme « raw ». L'analyse de données permet de simplifier ces données pour comprendre et expliquer des phénomènes ou des comportements dans le monde qui nous entoure.
 
 Pouvoir de prédiction: prédire comment certaines variables ou facteurs influencent d’autres variables ou événements. 
 :::
@@ -78,11 +78,13 @@ Pouvoir de prédiction: prédire comment certaines variables ou facteurs influen
 
 > L'analyse de données vise à explorer, décrire et interpréter des informations recueillies sur les comportements humains, les relations sociales et les phénomènes sociétaux. **Ce processus peut inclure des données quantitatives (comme des données issus d'enquêtes ou de recensements) et des données qualitatives (comme des entretiens ou des observations)**.
 
+::: {.incremental}
 Principales étapes de l'analyse de données :
 
 1. Collecte des données
 2. Préparation des données
 3. Analyse statistique
+:::
 
 
 ## Les logiciels d'analyse de données{.smaller}
@@ -102,6 +104,8 @@ Principales étapes de l'analyse de données :
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/1024px-R_logo.svg.png){.absolute top=0 left=800 width="20%"}
 
+<br><br>
+
 ### Open source
 
 - Gratuit
@@ -109,9 +113,15 @@ Principales étapes de l'analyse de données :
 - Communauté active
 - Adapté aux besoins des utilisateurs
 
+:::{.notes}
+Open source c'est un modèle de développement de logiciels où le code est accessible à tous. Dans un logiciel open source, ce code est publié publiquement, permettant à n'importe qui de le lire, le modifier, le partager, et l'améliorer.
+:::
+
 ## Pourquoi R?{.smaller}
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/1024px-R_logo.svg.png){.absolute top=0 left=800 width="20%"}
+
+<br><br>
 
 ### Packages
 
@@ -120,9 +130,15 @@ Principales étapes de l'analyse de données :
 - 21,744 packages sur CRAN
 - Beaucoup plus sur GitHub
 
+:::{.notes}
+Chaque tâche spécifique lié à l'analyse de donnéees peut être automatisé et facilité par R. Collègue récemment à la CLESSN catégorisé les code postaux à la main. 
+:::
+
 ## Pourquoi R?{.smaller}
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/1024px-R_logo.svg.png){.absolute top=0 left=800 width="20%"}
+
+<br><br>
 
 ### Reproductibilité
 
@@ -135,11 +151,13 @@ Principales étapes de l'analyse de données :
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/1024px-R_logo.svg.png){.absolute top=0 left=800 width="20%"}
 
+<br><br>
+
 ### Très utilisé en science sociale
 
 - Beaucoup de ressources
 - Beaucoup de tutoriels orientés vers la science sociale
-- Important d'être dans le même langage que les autres chercheurs
+- Important d'utiliser les mêmes outils que les chercheurs dans votre domaine
 
 ## Présentation de la CLESSN
 
