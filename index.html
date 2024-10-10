@@ -389,7 +389,7 @@ Camille Pelletier<br>Laurence-Olivier M. Foisy
 <p><br><br></p>
 <h3 id="comprendre-le-monde-autour-de-nous-à-travers-des-données">Comprendre le monde autour de nous à travers des données</h3>
 <p><br><br></p>
-<p><img data-src="_SharedFolder_fss_introduction_r/img/data.png" class="absolute" style="top: 300px; left: 800px; width: 40%; "> <img data-src="_SharedFolder_fss_introduction_r/img/citizen.jpg" class="absolute" style="top: 450px; left: 600px; width: 10%; "></p>
+<p><img data-src="_SharedFolder_fss_introduction_r/img/data.png" class="absolute" style="top: 300px; left: 600px; width: 40%; "> <img data-src="_SharedFolder_fss_introduction_r/img/citizen.jpg" class="absolute" style="top: 470px; left: 470px; width: 10%; "></p>
 <aside class="notes">
 <p>Les données sont partout, mais pas nécessairement compréhensible dans leur forme « raw ». L’analyse de données permet de simplifier ces données pour comprendre et expliquer des phénomènes ou des comportements dans le monde qui nous entoure.</p>
 <p>Pouvoir de prédiction: prédire comment certaines variables ou facteurs influencent d’autres variables ou événements.</p>
@@ -536,13 +536,10 @@ Camille Pelletier<br>Laurence-Olivier M. Foisy
 <li>Application Web de sondage ludique</li>
 <li>Sondage pilote</li>
 </ul>
-</section>
-<section id="section" class="slide level2">
-<h2></h2>
-<div class="fragment">
 <div class="r-stack">
-<p><img data-src="_SharedFolder_fss_introduction_r/img/datagotchi_graph.png" class="absolute" style="top: 0px; left: 0px; width: 200%; "> <img data-src="_SharedFolder_fss_introduction_r/img/cartogram.png" class="absolute" style="top: 0px; left: 0px; width: 200%; "> <img data-src="_SharedFolder_fss_introduction_r/img/turnout.png" class="absolute" style="top: 0px; left: 0px; width: 200%; "></p>
-</div>
+<p><img data-src="_SharedFolder_fss_introduction_r/img/datagotchi_graph.png" class="fragment absolute" style="top: 0px; left: 0px; width: 200%; "></p>
+<p><img data-src="_SharedFolder_fss_introduction_r/img/cartogram.png" class="fragment absolute" style="top: 0px; left: 0px; width: 200%; "></p>
+<p><img data-src="_SharedFolder_fss_introduction_r/img/turnout.png" class="fragment absolute" style="top: 0px; left: 0px; width: 200%; "></p>
 </div>
 <!--NOTE: Mettre un beau graphique?-->
 </section>
@@ -577,9 +574,17 @@ Camille Pelletier<br>Laurence-Olivier M. Foisy
 <li>Plots</li>
 </ul>
 </section>
-<section id="concepts-importants-le-chemin-daraborescence" class="slide level2">
-<h2>Concepts importants : Le chemin d’araborescence!</h2>
-<p>Vous devez savoir où vous êtes dans votre ordinateur pour pouvoir importer des données ou exporter des graphiques. Votre R est toujours ouvert dans un dossier, vous devez savoir où il est pour pouvoir importer des données.</p>
+<section id="concept-important-le-chemin-darborescence" class="slide level2 smaller">
+<h2>Concept important : Le chemin d’arborescence!</h2>
+<p><br><br></p>
+<blockquote>
+<p>Vous devez savoir où vous êtes dans votre ordinateur pour pouvoir importer des données ou exporter des graphiques. Votre R est toujours ouvert dans un dossier, et donc vous devez savoir où il est pour pouvoir importer des données.</p>
+</blockquote>
+<p><br><br></p>
+<p><img data-src="_SharedFolder_fss_introduction_r/img/chemin_arbo.png" class="absolute" style="top: 400px; left: 75px; width: 80%; "></p>
+</section>
+<section id="concepts-importants" class="slide level2 smaller">
+<h2>Concepts importants</h2>
 <p>Savoir ce que vous voulez faire avant de commencer à écrire du code. La plus grosse erreur est de commencer à écrire du code sans savoir ce que vous voulez faire.</p>
 </section>
 <section id="importer-des-données" class="slide level2">
@@ -596,23 +601,25 @@ Camille Pelletier<br>Laurence-Olivier M. Foisy
 <li><p>summary()</p></li>
 </ul>
 </section>
-<section id="représentation-graphique-des-données" class="slide level2">
+<section id="représentation-graphique-des-données" class="slide level2 smaller">
 <h2>Représentation graphique des données</h2>
+<h3 id="principes-généraux-de-la-visualisation">Principes généraux de la visualisation</h3>
 <ul>
-<li>Importance de la visualisation
+<li>Montrer les données</li>
+<li>Choisir des visualisations appropriées : Quelles informations seront utiles ?</li>
+<li>Réduire le bruit visuel
 <ul>
-<li>Qu’est-ce qu’une bonne visualisation graphique?</li>
-<li>Tufte</li>
+<li>Peut déformer les données et être source de distraction</li>
 </ul></li>
-<li>ggplot2
-<ul>
-<li>Les layers</li>
-</ul></li>
-<li>Shiny
-<ul>
-<li>Créer des applications interactives</li>
-</ul></li>
+<li>Éviter les graphiques « spaghetti »</li>
+<li>Commencer par du gris</li>
+<li>Utiliser les couleurs de manière efficace</li>
+<li>Ratio encre/information</li>
 </ul>
+</section>
+<section id="représentation-graphique-des-données-1" class="slide level2 smaller">
+<h2>Représentation graphique des données</h2>
+<p>-ggplot2 - Les layers - Shiny - Créer des applications interactives</p>
 </section>
 <section id="analyse-statistique" class="slide level2">
 <h2>Analyse statistique</h2>
