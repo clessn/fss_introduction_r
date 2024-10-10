@@ -49,9 +49,12 @@ format:
 
 #### Comprendre le monde autour de nous à travers des données
 
-- Les données sont partout, mais pas nécessairement intelligibles.
+- Les données sont partout, mais pas nécessairement intelligibles dans leur forme « raw »
 
-> L'analyse de données permet de comprendre ces données, et donc de mieux comprendre le monde qui nous entoure.
+![](img/data.png){.absolute top=450 left=800 width="20%"}
+![](img/citizen.pdf){.absolute top=450 left=800 width="20%"}
+
+> L'analyse de données permet de comprendre ces données, et donc de mieux comprendre le monde qui nous entoure
 
 
 :::{.notes}
