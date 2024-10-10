@@ -219,16 +219,14 @@ Chaire de leadership en enseignement des sciences sociales numériques (CLESSN)
 
 ::: 
 
-<<<<<<< HEAD
 ## R : Au-delà de l'analyse de données{.smaller}
 
 - R ne se limite pas à l'analyse statistique, il peut aussi être utilisé pour développer des applications web interactives
 
 ![](_SharedFolder_fss_introduction_r/img/catalogue.png){absolute top=0 left=0 width="20%"}
-=======
+
 ## Visualisation des données
 
->>>>>>> f8cdac248e4a641ab0525aa9eafe43d26db86c77
 
 
 ## Analyse textuelle
