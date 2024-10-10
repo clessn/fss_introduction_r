@@ -268,5 +268,5 @@ TSWLatexianTemp*
 .json
 
 from_pres_to_site.R
-.html
-.css
+*.html
+*.css
