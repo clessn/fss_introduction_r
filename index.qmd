@@ -44,8 +44,7 @@ format:
 - Comprendre la pertinence du logiciel de traitement de données R
 - Obtenir des outils pour dédramatiser la science des données
 
-## Pourquoi cet atelier?
-=======
+
 ## Pourquoi suivre cet atelier?
 
 #### Comprendre le monde autour de nous à travers des données
@@ -112,7 +111,7 @@ Pouvoir de prédiction: prédire comment certaines variables ou facteurs influen
 
 ## Présentation de la CLESSN
 
-Présenter nos travauxe et la variété de projets menés avec R
+Présenter nos travaux et la variété de projets menés avec R
 
 Datagotchi, les histoires, les articles, les shiny, etc.
 
