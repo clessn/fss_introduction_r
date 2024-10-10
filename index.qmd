@@ -38,10 +38,9 @@ format:
 
 ## Pourquoi suivre cet atelier?
 
-- Comprendre le monde autour de nous à travers des données
 - Compétences recherchées sur le marché du travail
 - Base solide pour la recherche académique
-- Comprendre la pertinence du logiciel de traitement de données R
+- Comprendre la pertinence de l'utilisation d'un logiciel de traitement de données
 - Obtenir des outils pour dédramatiser la science des données
 
 
@@ -52,7 +51,7 @@ format:
 - Les données sont partout, mais pas nécessairement intelligibles dans leur forme « raw »
 
 ![](img/data.png){.absolute top=450 left=800 width="20%"}
-![](img/citizen.pdf){.absolute top=450 left=800 width="20%"}
+![](img/citizen.jpg){.absolute top=450 left=650 width="10%"}
 
 > L'analyse de données permet de comprendre ces données, et donc de mieux comprendre le monde qui nous entoure
 
@@ -65,8 +64,8 @@ Pouvoir de prédiction: prédire comment certaines variables ou facteurs influen
 
 ## Qu'est-ce que l'analyse de données?
 
-- Le but est de rendre les données « raw » compréhensibles
 - Il y a des millions de données qui sont générées chaque jour
+- Le but est de rendre les données « raw » compréhensibles
 - L'analyse de données permet de comprendre ces données et donc de comprendre le monde qui nous entoure
 
 ## Pourquoi R?
