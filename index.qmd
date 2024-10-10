@@ -184,15 +184,17 @@ Chaire de leadership en enseignement des sciences sociales numériques (CLESSN)
 - Sondage pilote
 
 ##
-:::: {.fragment}
+
 ::: {.r-stack}
 
-![](_SharedFolder_fss_introduction_r/img/datagotchi_graph.png){.absolute top=0 left=0 width="200%"}
-![](_SharedFolder_fss_introduction_r/img/cartogram.png){.absolute top=0 left=0 width="200%"}
-![](_SharedFolder_fss_introduction_r/img/turnout.png){.absolute top=0 left=0 width="200%"}
+![](_SharedFolder_fss_introduction_r/img/datagotchi_graph.png){.fragment .absolute top=0 left=0 width="200%"}
 
-:::
-::::
+![](_SharedFolder_fss_introduction_r/img/cartogram.png){.fragment .absolute top=0 left=0 width="200%"}
+
+![](_SharedFolder_fss_introduction_r/img/turnout.png){.fragment .absolute top=0 left=0 width="200%"}
+
+::: 
+
 <!--NOTE: Mettre un beau graphique?-->
 
 ## Shiny Catalogue
