@@ -114,7 +114,6 @@ Pouvoir de prédiction: prédire comment certaines variables ou facteurs influen
 
 ## Présentation de la CLESSN
 
-<<<<<<< HEAD
 Présenter nos travaux et la variété de projets menés avec R
 
 Datagotchi, les histoires, les articles, les shiny, etc.
@@ -123,9 +122,8 @@ Datagotchi, les histoires, les articles, les shiny, etc.
 - Shiny catalogue
 - GPT
 - Analyse textuelle
-=======
+
 Expliquer ce qu'est la CLESSN
->>>>>>> 4399b03dfdf14ddcda4eb2c8f3ec33b9d509053d
 
 ## Datagotchi
 
