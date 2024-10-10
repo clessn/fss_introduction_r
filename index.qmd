@@ -30,9 +30,9 @@ format:
 - Introduire R pour l'analyse de données.
   - Les dataframes
   - Les fonctions
-  - les packages 
-  - les graphiques
-  - les statistiques
+  - Les packages 
+  - Les graphiques
+  - Les statistiques
 
 > Le but est que vous puissiez sortir d'ici avec une compréhension de base de R et que vous soyez capable d'aller chercher des ressources pour continuer à apprendre.
 
@@ -44,13 +44,15 @@ format:
 - Comprendre la pertinence du logiciel de traitement de données R
 - Obtenir des outils pour dédramatiser la science des données
 
+## Pourquoi cet atelier?
+=======
 ## Pourquoi suivre cet atelier?
 
-### Comprendre le monde autour de nous à travers des données
+#### Comprendre le monde autour de nous à travers des données
 
-- Tout est donnée
-- Les données sont partout mais pas nécessairement intelligibles
-- L'analyse de données permet de comprendre ces données et donc de comprendre le monde qui nous entoure
+- Les données sont partout, mais pas nécessairement intelligibles.
+
+> L'analyse de données permet de comprendre ces données, et donc de mieux comprendre le monde qui nous entoure.
 
 
 :::{.notes}
