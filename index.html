@@ -8,7 +8,7 @@
 <link href="index_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.5.56">
+  <meta name="generator" content="quarto-1.3.450">
 
   <meta name="author" content="Camille Pelletier Laurence-Olivier M. Foisy">
   <title>Initiation à l’analyse de données avec R</title>
@@ -156,8 +156,7 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    padding-bottom: 0.5rem;
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -340,7 +339,7 @@ Camille Pelletier<br>Laurence-Olivier M. Foisy
 </div>
 
 </section>
-<section id="plan-de-latelier" class="slide level2">
+<section id="plan-de-latelier" class="slide level2 smaller">
 <h2>Plan de l’atelier</h2>
 <h3 id="h-à-12h">9h à 12h</h3>
 <ul>
@@ -382,7 +381,8 @@ Camille Pelletier<br>Laurence-Olivier M. Foisy
 </blockquote>
 </div><div class="column">
 <p><img data-src="_SharedFolder_fss_introduction_r/img/science.png" class="absolute" style="top: 150px; left: 800px; width: 30%; "></p>
-</div></div>
+</div>
+</div>
 </section>
 <section id="pourquoi-suivre-cet-atelier-1" class="slide level2 smaller">
 <h2>Pourquoi suivre cet atelier?</h2>
@@ -435,7 +435,11 @@ Camille Pelletier<br>Laurence-Olivier M. Foisy
 <ul>
 <li>Gratuit</li>
 <li>Collaboratif</li>
-<li>Communauté active</li>
+<li>Communauté active
+<ul>
+<li>Stackoverflow</li>
+<li>r-bloggers</li>
+</ul></li>
 <li>Adapté aux besoins des utilisateurs</li>
 </ul>
 <aside class="notes">
@@ -460,8 +464,14 @@ Camille Pelletier<br>Laurence-Olivier M. Foisy
 <ul>
 <li>Offre une extension des fonctionnalités de base presque infinie</li>
 <li>Peux répondre à des besoins très spécifiques</li>
-<li>21,744 packages sur CRAN</li>
-<li>Beaucoup plus sur GitHub</li>
+<li>21,744 packages sur CRAN (Comprehensive R Archive Network)
+<ul>
+<li>Principal dépôt où sont hébergés les packages R</li>
+</ul></li>
+<li>Beaucoup plus sur GitHub
+<ul>
+<li>En plus de CRAN, de nombreux chercheurs publient leurs packages sur GitHub, une plateforme de partage de code</li>
+</ul></li>
 </ul>
 <aside class="notes">
 <p>Chaque tâche spécifique lié à l’analyse de donnéees peut être automatisé et facilité par R. Collègue récemment à la CLESSN catégorisé les code postaux à la main.</p>
@@ -496,9 +506,14 @@ Camille Pelletier<br>Laurence-Olivier M. Foisy
 <h3 id="très-utilisé-en-science-sociale">Très utilisé en science sociale</h3>
 <ul>
 <li>Beaucoup de ressources</li>
-<li>Beaucoup de tutoriels orientés vers la science sociale</li>
-<li>Important d’utiliser les mêmes outils que les chercheurs dans votre domaine</li>
+<li>Beaucoup de tutoriels orientés vers les sciences sociales
+<ul>
+<li>Datacamp</li>
+<li>Coursera</li>
+<li>Datanovia</li>
+</ul></li>
 </ul>
+<h4 id="bref-important-dutiliser-les-mêmes-outils-que-les-chercheurs-dans-votre-domaine">Bref… important d’utiliser les mêmes outils que les chercheurs dans votre domaine</h4>
 </section>
 <section id="la-clessn" class="slide level2 smaller">
 <h2>La CLESSN</h2>
@@ -624,11 +639,9 @@ Camille Pelletier<br>Laurence-Olivier M. Foisy
 </section>
 <section id="conclusion" class="slide level2">
 <h2>Conclusion</h2>
-<div class="quarto-auto-generated-content">
-<p><img src="img\logo_CLESSN.png" class="slide-logo"></p>
-<div class="footer footer-default">
+
+<img src="_SharedFolder_fss_introduction_r/img/logo_CLESSN.png" class="slide-logo r-stretch"><div class="footer footer-default">
 <p>Analyse de données avec R</p>
-</div>
 </div>
 </section>
     </div>
@@ -657,6 +670,7 @@ Camille Pelletier<br>Laurence-Olivier M. Foisy
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': false,
+'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -873,7 +887,18 @@ Camille Pelletier<br>Laurence-Olivier M. Foisy
         }
         return false;
       }
-      const onCopySuccess = function(e) {
+      const clipboard = new window.ClipboardJS('.code-copy-button', {
+        text: function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+      });
+      clipboard.on('success', function(e) {
         // button target
         const button = e.trigger;
         // don't keep focus
@@ -905,50 +930,11 @@ Camille Pelletier<br>Laurence-Olivier M. Foisy
         }, 1000);
         // clear code selection
         e.clearSelection();
-      }
-      const getTextToCopy = function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
-            }
-          }
-          return codeEl.innerText;
-      }
-      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-        text: getTextToCopy
       });
-      clipboard.on('success', onCopySuccess);
-      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-        // For code content inside modals, clipBoardJS needs to be initialized with a container option
-        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
-        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-          text: getTextToCopy,
-          container: window.document.getElementById('quarto-embedded-source-code-modal')
-        });
-        clipboardModal.on('success', onCopySuccess);
-      }
-        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-        var mailtoRegex = new RegExp(/^mailto:/);
-          var filterRegex = new RegExp('/' + window.location.host + '/');
-        var isInternal = (href) => {
-            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-        }
-        // Inspect non-navigation links and adorn them if external
-     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-        for (var i=0; i<links.length; i++) {
-          const link = links[i];
-          if (!isInternal(link.href)) {
-            // undo the damage that might have been done by quarto-nav.js in the case of
-            // links that we want to consider external
-            if (link.dataset.originalHref !== undefined) {
-              link.href = link.dataset.originalHref;
-            }
-          }
-        }
-      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      function tippyHover(el, contentFn) {
         const config = {
           allowHTML: true,
+          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -958,17 +944,8 @@ Camille Pelletier<br>Laurence-Olivier M. Foisy
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start',
+          placement: 'bottom-start'
         };
-        if (contentFn) {
-          config.content = contentFn;
-        }
-        if (onTriggerFn) {
-          config.onTrigger = onTriggerFn;
-        }
-        if (onUntriggerFn) {
-          config.onUntrigger = onUntriggerFn;
-        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
@@ -982,11 +959,7 @@ Camille Pelletier<br>Laurence-Olivier M. Foisy
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          if (note) {
-            return note.innerHTML;
-          } else {
-            return "";
-          }
+          return note.innerHTML;
         });
       }
       const findCites = (el) => {
