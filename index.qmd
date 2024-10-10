@@ -44,13 +44,20 @@ format:
 - Comprendre la pertinence du logiciel de traitement de données R
 - Obtenir des outils pour dédramatiser la science des données
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> a52c03d0e81b988c4f6db4dc13ce5eea2d3bc686
 ## Pourquoi suivre cet atelier?
 
 #### Comprendre le monde autour de nous à travers des données
 
-- Les données sont partout, mais pas nécessairement intelligibles.
+- Les données sont partout, mais pas nécessairement intelligibles dans leur forme « raw »
 
-> L'analyse de données permet de comprendre ces données, et donc de mieux comprendre le monde qui nous entoure.
+![](img/data.png){.absolute top=450 left=800 width="20%"}
+![](img/citizen.pdf){.absolute top=450 left=800 width="20%"}
+
+> L'analyse de données permet de comprendre ces données, et donc de mieux comprendre le monde qui nous entoure
 
 
 :::{.notes}
@@ -123,7 +130,18 @@ Pouvoir de prédiction: prédire comment certaines variables ou facteurs influen
 
 ## Présentation de la CLESSN
 
+<<<<<<< HEAD
+Présenter nos travaux et la variété de projets menés avec R
+
+Datagotchi, les histoires, les articles, les shiny, etc.
+
+- Datagotchi
+- Shiny catalogue
+- GPT
+- Analyse textuelle
+=======
 Expliquer ce qu'est la CLESSN
+>>>>>>> 4399b03dfdf14ddcda4eb2c8f3ec33b9d509053d
 
 ## Datagotchi
 
