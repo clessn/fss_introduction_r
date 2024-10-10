@@ -446,6 +446,13 @@ git push
 ```
 <!--`-->
 
+## Apprendre plus de R{.smaller} 
+
+- swirl
+- Datacamp
+- R4DS (R for Data Science)
+- Advanced R
+
 
 ## Ressources
 
