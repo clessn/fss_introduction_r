@@ -67,7 +67,7 @@ Pouvoir de prédiction: prédire comment certaines variables ou facteurs influen
 
 ## Pourquoi R?
 
-![](img/r.png){.absolute top=0 left=800 width="20%"}
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/1024px-R_logo.svg.png){.absolute top=0 left=800 width="20%"}
 
 ### Open source
 
@@ -78,7 +78,7 @@ Pouvoir de prédiction: prédire comment certaines variables ou facteurs influen
 
 ## Pourquoi R?
 
-![](img/r.png){.absolute top=0 left=800 width="20%"}
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/1024px-R_logo.svg.png){.absolute top=0 left=800 width="20%"}
 
 ### Packages
 
@@ -89,7 +89,7 @@ Pouvoir de prédiction: prédire comment certaines variables ou facteurs influen
 
 ## Pourquoi R?
 
-![](img/r.png){.absolute top=0 left=800 width="20%"}
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/1024px-R_logo.svg.png){.absolute top=0 left=800 width="20%"}
 
 ### Reproductibilité
 
@@ -100,7 +100,7 @@ Pouvoir de prédiction: prédire comment certaines variables ou facteurs influen
 
 ## Pourquoi R?
 
-![](img/r.png){.absolute top=0 left=800 width="20%"}
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/1024px-R_logo.svg.png){.absolute top=0 left=800 width="20%"}
 
 ### Très utilisé en science sociale
 
@@ -110,20 +110,12 @@ Pouvoir de prédiction: prédire comment certaines variables ou facteurs influen
 
 ## Présentation de la CLESSN
 
-Présenter nos travauxe et la variété de projets menés avec R
-
-Datagotchi, les histoires, les articles, les shiny, etc.
-
-- Datagotchi
-- Shiny catalogue
-- GPT
-- Analyse textuelle
+Expliquer ce qu'est la CLESSN
 
 ## Datagotchi
 
 - Application Web de sondage ludique
-
-Les données sont analysées en R
+- Sondage pilote
 
 <!--NOTE: Mettre un beau graphique?-->
 
