@@ -44,8 +44,7 @@ format:
 - Comprendre la pertinence du logiciel de traitement de données R
 - Obtenir des outils pour dédramatiser la science des données
 
-<<<<<<< HEAD
-## Pourquoi cet atelier?
+## Pourquoi suivre cet atelier?
 
 ### Comprendre le monde autour de nous à travers des données
 
@@ -54,13 +53,11 @@ format:
 - L'analyse de données permet de comprendre ces données et donc de comprendre le monde qui nous entoure
 
 
-=======
 :::{.notes}
 Tout est des données autours de nous. L'analyse de données permet de simplifier la réalité pour comprendre et expliquer des phénomènes ou des comportements dans le monde qui nous entoure.
 
 Pouvoir de prédiction: prédire comment certaines variables ou facteurs influencent d’autres variables ou événements. 
 :::
->>>>>>> 2f4fdd5da47c297773b28d34dcb0622469b7dc43
 
 ## Qu'est-ce que l'analyse de données?
 
@@ -70,15 +67,7 @@ Pouvoir de prédiction: prédire comment certaines variables ou facteurs influen
 
 ## Pourquoi R?
 
-Expliquer pourquoi R est un outil de choix pour l'analyse de données.
-Pourquoi on choisi R versus d'autres outils comme Stata et SPSS.
-
-- Open source
-- Packages
-- Reproductibilité
-- Très utilisé en science sociale
-
-## Pourquoi R?
+![](img/r.png){.absolute top=0 left=800 width="20%"}
 
 ### Open source
 
@@ -89,6 +78,8 @@ Pourquoi on choisi R versus d'autres outils comme Stata et SPSS.
 
 ## Pourquoi R?
 
+![](img/r.png){.absolute top=0 left=800 width="20%"}
+
 ### Packages
 
 - Offre une extension des fonctionnalités de base presque infinie
@@ -98,6 +89,8 @@ Pourquoi on choisi R versus d'autres outils comme Stata et SPSS.
 
 ## Pourquoi R?
 
+![](img/r.png){.absolute top=0 left=800 width="20%"}
+
 ### Reproductibilité
 
 - Rendre les analyses reproductibles
@@ -106,6 +99,8 @@ Pourquoi on choisi R versus d'autres outils comme Stata et SPSS.
 - Partager le code
 
 ## Pourquoi R?
+
+![](img/r.png){.absolute top=0 left=800 width="20%"}
 
 ### Très utilisé en science sociale
 
