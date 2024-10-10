@@ -232,7 +232,7 @@ Comment écrire du code dans RStudio
 - Files
 - Plots
 
-## Concepts importants
+## Concepts importants : Le chemin d'araborescence!
 
 Vous devez savoir où vous êtes dans votre ordinateur pour pouvoir importer des données ou exporter des graphiques. 
 Votre R est toujours ouvert dans un dossier, vous devez savoir où il est pour pouvoir importer des données. 
