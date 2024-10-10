@@ -269,4 +269,4 @@ TSWLatexianTemp*
 
 from_pres_to_site.R
 *.html
-*.css
+.css
