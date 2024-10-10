@@ -78,6 +78,11 @@ Pouvoir de prédiction: prédire comment certaines variables ou facteurs influen
 
 ## Qu'est-ce que l'analyse de données?{.smaller}
 
+- Analyse de ton. Est-ce que le texte est positif ou négatif?
+- Catégorisation de texte. Est-ce que le texte parle de politique, de santé, de sport?
+- Analyse d'image
+- Transcription audio
+
 > L'analyse de données vise à explorer, décrire et interpréter des informations recueillies sur les comportements humains, les relations sociales et les phénomènes sociétaux. **Ce processus peut inclure des données quantitatives (comme des données issus de sondages) et des données qualitatives (comme des entretiens ou des observations)**.
 
 ::: {.incremental}
@@ -196,6 +201,7 @@ Chaire de leadership en enseignement des sciences sociales numériques (CLESSN)
 
 - Application utilisant des variables lifestyles pour prédire le vote
 - Utiliser R et l'analyse de données à travers ce projet:
+  - Prototypage en Shiny
   - Nettoyage des données
   - Analyse factorielle
   - Régressions et modèles
@@ -213,19 +219,24 @@ Chaire de leadership en enseignement des sciences sociales numériques (CLESSN)
 
 ::: 
 
+<<<<<<< HEAD
 ## R : Au-delà de l'analyse de données{.smaller}
 
 - R ne se limite pas à l'analyse statistique, il peut aussi être utilisé pour développer des applications web interactives
 
 ![](_SharedFolder_fss_introduction_r/img/catalogue.png){absolute top=0 left=0 width="20%"}
+=======
+## Visualisation des données
 
-## Les LLM
+>>>>>>> f8cdac248e4a641ab0525aa9eafe43d26db86c77
 
-R permet d'intéragir avec les LLM. De mélanger les données avec la puissance des LLM permet de pousser l'analyse de données plus loin.
 
 ## Analyse textuelle
 
-R permet de faire de données qualitatives
+- Analyse de ton. Est-ce que le texte est positif ou négatif?
+- Catégorisation de texte. Est-ce que le texte parle de politique, de santé, de sport?
+- Analyse d'image
+- Transcription audio
 
 ## Installer R et RStudio
 
@@ -262,7 +273,12 @@ Savoir ce que vous voulez faire avant de commencer à écrire du code. La plus g
 ## Importer des données
 
 Les données sont souvent dans des fichiers Excel, CSV, ou autres.
-Il est important de savoir comment importer ces données dans R.
+
+On utilise des fonctions comme read.csv() pour lire les fichiers et on assigne l'opération à un objet.
+
+- `df <- read.csv("chemin/vers/data.csv")`
+- `df <- readxl::read_excel("chemin/vers/data.xlsx")`
+- `df <- readRDS("chemin/vers/data.rds")`
 
 ## L'analyse descriptive des données
 
@@ -271,7 +287,21 @@ Il est important de savoir comment importer ces données dans R.
 - table()
 - names()
 - hist()
+- print()
 - summary()
+
+## Manipulation de données
+
+- Tidyverse
+  - dplyr
+  - tidyr
+
+- Plusieurs fonctions pour manipuler les données
+  - filter()
+  - select()
+  - mutate()
+  - group_by()
+  - summarize()
 
 ## Représentation graphique des données{.smaller}
 
@@ -288,8 +318,9 @@ Il est important de savoir comment importer ces données dans R.
 
 ## Représentation graphique des données{.smaller}
 
--ggplot2
+- ggplot2
   - Les layers
+  - Les geom
 - Shiny
   - Créer des applications interactives
 
@@ -302,6 +333,134 @@ Il est important de savoir comment importer ces données dans R.
 ## Tableaux de régression
 
 - modelsummary
+
+## Bonnes pratiques
+
+- Comment nommer vos objets
+- Comment commenter votre code
+- Comment organiser votre code
+- Comment partager votre code
+
+## Git{.smaller}
+
+::::{.columns}
+
+:::{.column width=50%}
+
+- Créé par Linus Torvalds en 2005
+- Gestion de version
+- Permet de suivre l'évolution d'un projet
+- Utile pour tout ce qui est texte, incluant les articles et les présentations
+- Enregistre tous les changements faits depuis la création du projet (.git)
+- Reproductibilité et transparence
+
+:::
+
+:::{.column width=50%}
+
+![](img/meme_versions.jpg)
+
+:::
+
+::::
+
+## Important
+
+- Télécharger et installer Git depuis [git-scm.com](git-scm.com)
+
+- Configurer git avant de commencer à l'utiliser
+
+  - Dans le terminal:
+
+```bash
+git config --global user.name "username"
+git config --global user.email votre@email.com
+git config --global credential.helper store
+```
+<!--`-->
+
+## Git{.smaller transition="none"}
+
+![](img/git.png)
+
+## GitHub{.smaller transition="none"}
+
+![](img/git_github.png)
+
+
+## GitHub
+
+- GitHub = Git + Internet
+
+- Plateforme de développement collaboratif
+- Héberge des projets Git
+- Acheté par Microsoft pour 7.5 milliards de dollars
+- Lieu d'entreposage de plusieurs projets open source
+
+## Ajouter vos accès{.smaller}
+
+- Créer un compte GitHub :
+- Générer un token d'accès classique :
+    - Connectez-vous à GitHub et allez dans vos Paramètres.
+    - Dans la section Developer Settings, cliquez sur Personal Access Tokens, puis sur Tokens (classic).
+    - Créez un nouveau token en cliquant sur Generate new token (classic).
+    - Choisissez la durée illimité et donnez tous les accès        
+    - Copiez le token généré, car vous ne pourrez plus le visualiser après avoir quitté cette page.
+    
+- Quand Git demandera un identifiant et un mot de passe, entrez :
+    - Identifiant : votre nom d'utilisateur GitHub.
+    - Mot de passe : collez le token que vous avez généré.
+
+## Comment l'utiliser?{.smaller}
+
+1. Cloner un projet existant sur votre ordinateur.
+  - Ce projet est maintenant un dossier sur votre ordinateur. Vous pouvez le modifier, le supprimer, le déplacer, etc.
+
+
+```bash
+git clone https://lien/vers/repo.git
+```
+<!--`-->
+
+2. Modifier le projet, ajouter des fichiers, etc.
+
+```bash
+git pull 
+git add votre_fichier_1 votre_fichier_2
+git commit -m "Message de commit"
+git push
+```
+<!--`-->
+
+## Organiser votre répertoire et placer vos données{.smaller}
+
+```bash
+/MonProjet
+├── data/                
+│   ├── raw_data.csv      
+│   └── cleaned_data.csv  
+├── scripts/             
+│   ├── analyse.R         
+│   └── visualization.R   
+├── results/             
+│   ├── summary_statistics.csv  
+│   └── plots/                  
+│       └── data_distribution.png  
+├── docs/                
+│   ├── methodology.md    
+│   ├── references.bib    
+│   └── project_presentation.qmd  
+└── README.md            
+```
+<!--`-->
+
+## Apprendre plus de R{.smaller} 
+
+- swirl
+- Datacamp
+- R4DS (R for Data Science)
+- Advanced R
+
 
 ## Ressources
 
