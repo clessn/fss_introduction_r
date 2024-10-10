@@ -36,23 +36,26 @@ format:
 
 > Le but est que vous puissiez sortir d'ici avec une compréhension de base de R et que vous soyez capable d'aller chercher des ressources pour continuer à apprendre.
 
-## Pourquoi suivre cet atelier?
+## Pourquoi suivre cet atelier?{.smaller} 
 
-- Compétences recherchées sur le marché du travail
+::::{.columns}
 
-
-## Pourquoi suivre cet atelier?
+:::{.column}
 
 - Base solide pour la recherche académique
 
-![](img/cycle_recherche.png){.absolute top=400 left=800 width="20%"}
+> Permet de comprendre la pertinence de l'utilisation d'un logiciel de traitement de données et d'obtenir des outils pour dédramatiser la science des données
 
+:::
 
-> Comprendre la pertinence de l'utilisation d'un logiciel de traitement de données
-> Obtenir des outils pour dédramatiser la science des données
+:::{.column}
 
+![](img/science.png){.absolute top=150 left=800 width="30%"}
+:::
 
-## Pourquoi suivre cet atelier?
+::::
+
+## Pourquoi suivre cet atelier?{.smaller}
 
 #### Comprendre le monde autour de nous à travers des données
 
@@ -70,13 +73,19 @@ Tout est des données autours de nous. L'analyse de données permet de simplifie
 Pouvoir de prédiction: prédire comment certaines variables ou facteurs influencent d’autres variables ou événements. 
 :::
 
-## Qu'est-ce que l'analyse de données?
 
-- Il y a des millions de données qui sont générées chaque jour
-- Le but est de rendre les données « raw » compréhensibles
-- L'analyse de données permet de comprendre ces données et donc de comprendre le monde qui nous entoure
+## Qu'est-ce que l'analyse de données?{.smaller}
 
-## Les logiciels d'analyse de données
+> L'analyse de données vise à explorer, décrire et interpréter des informations recueillies sur les comportements humains, les relations sociales et les phénomènes sociétaux. **Ce processus peut inclure des données quantitatives (comme des données issus d'enquêtes ou de recensements) et des données qualitatives (comme des entretiens ou des observations)**.
+
+Principales étapes de l'analyse de données :
+
+1. Collecte des données
+2. Préparation des données
+3. Analyse statistique
+
+
+## Les logiciels d'analyse de données{.smaller}
 
 ![](https://upload.wikimedia.org/wikipedia/commons/e/ea/SPSS_logo.svg){.absolute top=400 left=100 width="20%"}
 
@@ -89,7 +98,7 @@ Pouvoir de prédiction: prédire comment certaines variables ou facteurs influen
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/1024px-R_logo.svg.png){.absolute top=200 left=330 width="40%"}
 
 
-## Pourquoi R?
+## Pourquoi R?{.smaller}
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/1024px-R_logo.svg.png){.absolute top=0 left=800 width="20%"}
 
@@ -100,7 +109,7 @@ Pouvoir de prédiction: prédire comment certaines variables ou facteurs influen
 - Communauté active
 - Adapté aux besoins des utilisateurs
 
-## Pourquoi R?
+## Pourquoi R?{.smaller}
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/1024px-R_logo.svg.png){.absolute top=0 left=800 width="20%"}
 
@@ -111,7 +120,7 @@ Pouvoir de prédiction: prédire comment certaines variables ou facteurs influen
 - 21,744 packages sur CRAN
 - Beaucoup plus sur GitHub
 
-## Pourquoi R?
+## Pourquoi R?{.smaller}
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/1024px-R_logo.svg.png){.absolute top=0 left=800 width="20%"}
 
@@ -122,7 +131,7 @@ Pouvoir de prédiction: prédire comment certaines variables ou facteurs influen
 - Permet de retracer les erreurs
 - Partager le code
 
-## Pourquoi R?
+## Pourquoi R?{.smaller}
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/1024px-R_logo.svg.png){.absolute top=0 left=800 width="20%"}
 
