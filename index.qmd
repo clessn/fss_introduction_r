@@ -167,28 +167,40 @@ Chaque tâche spécifique lié à l'analyse de donnéees peut être automatisé 
 
 #### Bref... important d'utiliser les mêmes outils que les chercheurs dans votre domaine
 
-## La CLESSN
+## La CLESSN{.smaller}
 
-Chaire de leadership en enseignement des sciences sociales numériques
+![](https://www.clessn.com/assets/img/logo-black.svg){.absolute top=330 left=630 width="30%"}
+![](_SharedFolder_fss_introduction_r/img/yaduf.png){.absolute top=200 left=0 width="35%"}
+Chaire de leadership en enseignement des sciences sociales numériques (CLESSN)
 
-![](https://www.clessn.com/assets/img/logo-black.svg)
 
-Présenter nos travaux et la variété de projets menés avec R
+::::{.columns}
 
-Datagotchi, les histoires, les articles, les shiny, etc.
+:::{.column width="50%"}
+- Titulaire: Yannick Dufresne
+:::
 
-- Datagotchi
-- Shiny catalogue
-- GPT
-- Analyse textuelle
+:::{.column width="50%"}
+- Objectif: Développer des compétences en science des données pour les étudiants en sciences sociales à travers des projets de recherche et des formations
+:::
 
-Expliquer ce qu'est la CLESSN
+::::
 
 ## Datagotchi
 
 - Application Web de sondage ludique
 - Sondage pilote
 
+##
+:::: {.fragment}
+::: {.r-stack}
+
+![](_SharedFolder_fss_introduction_r/img/datagotchi_graph.png){.absolute top=0 left=0 width="200%"}
+![](_SharedFolder_fss_introduction_r/img/cartogram.png){.absolute top=0 left=0 width="200%"}
+![](_SharedFolder_fss_introduction_r/img/turnout.png){.absolute top=0 left=0 width="200%"}
+
+:::
+::::
 <!--NOTE: Mettre un beau graphique?-->
 
 ## Shiny Catalogue
