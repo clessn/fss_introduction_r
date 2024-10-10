@@ -186,11 +186,10 @@ Chaire de leadership en enseignement des sciences sociales numériques (CLESSN)
 
 ::::
 
-## Datagotchi
+## Datagotchi{.smaller}
 
 ![](_SharedFolder_fss_introduction_r/img/datagotchi_usa.png){.absolute top=0 left=800 width="30%"}
 
-<<<<<<< HEAD
 - Utiliser le lifestyle pour prédire le vote
 - Utiliser R à travers le projet:
   - Nettoyage des données
@@ -202,8 +201,6 @@ Chaire de leadership en enseignement des sciences sociales numériques (CLESSN)
 
 ![](_SharedFolder_fss_introduction_r/img/datagotchi_graph.png){.absolute top=0 left=0 width="200%"}
 
-=======
->>>>>>> cdb72ea9cb9e772de1876165169c4cec4ee2424c
 ::: {.r-stack}
 
 ![](_SharedFolder_fss_introduction_r/img/cartogram.png){.fragment .absolute top=0 left=0 width="200%"}
