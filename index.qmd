@@ -7,13 +7,13 @@ format:
     mermaid: 
       theme: dark
     theme: simple
-    logo: img\logo_CLESSN.png
+    logo: _SharedFolder_fss_introduction_r/img/logo_CLESSN.png
     footer: "Analyse de données avec R"
     transition: slide
     transition-speed: fast
 ---
 
-## Plan de l'atelier
+## Plan de l'atelier{.smaller}
 
 ### 9h à 12h 
 - Qu'est-ce que l'analyse de données?
@@ -111,6 +111,8 @@ Principales étapes de l'analyse de données :
 - Gratuit
 - Collaboratif
 - Communauté active
+  - Stackoverflow
+  - r-bloggers
 - Adapté aux besoins des utilisateurs
 
 :::{.notes}
@@ -127,8 +129,10 @@ Open source c'est un modèle de développement de logiciels où le code est acce
 
 - Offre une extension des fonctionnalités de base presque infinie
 - Peux répondre à des besoins très spécifiques
-- 21,744 packages sur CRAN
+- 21,744 packages sur CRAN (Comprehensive R Archive Network)
+  - Principal dépôt où sont hébergés les packages R
 - Beaucoup plus sur GitHub
+  - En plus de CRAN, de nombreux chercheurs publient leurs packages sur GitHub, une plateforme de partage de code
 
 :::{.notes}
 Chaque tâche spécifique lié à l'analyse de donnéees peut être automatisé et facilité par R. Collègue récemment à la CLESSN catégorisé les code postaux à la main. 
@@ -156,8 +160,12 @@ Chaque tâche spécifique lié à l'analyse de donnéees peut être automatisé 
 ### Très utilisé en science sociale
 
 - Beaucoup de ressources
-- Beaucoup de tutoriels orientés vers la science sociale
-- Important d'utiliser les mêmes outils que les chercheurs dans votre domaine
+- Beaucoup de tutoriels orientés vers les sciences sociales
+  - Datacamp
+  - Coursera
+  - Datanovia
+
+#### Bref... important d'utiliser les mêmes outils que les chercheurs dans votre domaine
 
 ## La CLESSN
 
