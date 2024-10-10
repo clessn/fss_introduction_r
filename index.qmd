@@ -78,11 +78,6 @@ Pouvoir de prédiction: prédire comment certaines variables ou facteurs influen
 
 ## Qu'est-ce que l'analyse de données?{.smaller}
 
-- Analyse de ton. Est-ce que le texte est positif ou négatif?
-- Catégorisation de texte. Est-ce que le texte parle de politique, de santé, de sport?
-- Analyse d'image
-- Transcription audio
-
 > L'analyse de données vise à explorer, décrire et interpréter des informations recueillies sur les comportements humains, les relations sociales et les phénomènes sociétaux. **Ce processus peut inclure des données quantitatives (comme des données issus de sondages) et des données qualitatives (comme des entretiens ou des observations)**.
 
 ::: {.incremental}
@@ -219,22 +214,24 @@ Chaire de leadership en enseignement des sciences sociales numériques (CLESSN)
 
 ::: 
 
-<<<<<<< HEAD
 ## R : Au-delà de l'analyse de données{.smaller}
 
 - R ne se limite pas à l'analyse statistique, il peut aussi être utilisé pour développer des applications web interactives
 
 ![](_SharedFolder_fss_introduction_r/img/catalogue.png){absolute top=0 left=0 width="20%"}
-=======
-## Visualisation des données
 
->>>>>>> f8cdac248e4a641ab0525aa9eafe43d26db86c77
+## Mais derrière tout ça... R{.smaller}
 
+- Voici l'envers du décor : 
+
+![](_SharedFolder_fss_introduction_r/img/catalogue_code.png){absolute top=0 left=0 width="20%"}
 
 ## Analyse textuelle
 
-- Analyse de ton. Est-ce que le texte est positif ou négatif?
-- Catégorisation de texte. Est-ce que le texte parle de politique, de santé, de sport?
+- Analyse de ton. 
+  - Est-ce que le texte est positif ou négatif?
+- Catégorisation de texte 
+  - Est-ce que le texte parle de politique, de santé, de sport?
 - Analyse d'image
 - Transcription audio
 
@@ -270,7 +267,7 @@ Votre R est toujours ouvert dans un dossier, et donc vous devez savoir où il es
 
 Savoir ce que vous voulez faire avant de commencer à écrire du code. La plus grosse erreur est de commencer à écrire du code sans savoir ce que vous voulez faire.
 
-## Importer des données
+## Importer des données{.smaller}
 
 Les données sont souvent dans des fichiers Excel, CSV, ou autres.
 
@@ -290,7 +287,7 @@ On utilise des fonctions comme read.csv() pour lire les fichiers et on assigne l
 - print()
 - summary()
 
-## Manipulation de données
+## Manipulation de données{.smaller}
 
 - Tidyverse
   - dplyr
