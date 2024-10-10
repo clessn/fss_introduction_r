@@ -63,8 +63,8 @@ format:
 
 <br><br>
 
-![](_SharedFolder_fss_introduction_r/img/data.png){.absolute top=300 left=800 width="40%"}
-![](_SharedFolder_fss_introduction_r/img/citizen.jpg){.absolute top=450 left=600 width="10%"}
+![](_SharedFolder_fss_introduction_r/img/data.png){.absolute top=300 left=600 width="40%"}
+![](_SharedFolder_fss_introduction_r/img/citizen.jpg){.absolute top=470 left=470 width="10%"}
 
 
 :::{.notes}
@@ -191,8 +191,6 @@ Chaire de leadership en enseignement des sciences sociales numériques (CLESSN)
 - Application Web de sondage ludique
 - Sondage pilote
 
-##
-
 ::: {.r-stack}
 
 ![](_SharedFolder_fss_introduction_r/img/datagotchi_graph.png){.fragment .absolute top=0 left=0 width="200%"}
@@ -234,10 +232,18 @@ Comment écrire du code dans RStudio
 - Files
 - Plots
 
-## Concepts importants : Le chemin d'araborescence!
+## Concept important : Le chemin d'arborescence!{.smaller}
 
-Vous devez savoir où vous êtes dans votre ordinateur pour pouvoir importer des données ou exporter des graphiques. 
-Votre R est toujours ouvert dans un dossier, vous devez savoir où il est pour pouvoir importer des données. 
+<br><br>
+
+> Vous devez savoir où vous êtes dans votre ordinateur pour pouvoir importer des données ou exporter des graphiques. 
+Votre R est toujours ouvert dans un dossier, et donc vous devez savoir où il est pour pouvoir importer des données.
+
+<br><br>
+
+![](_SharedFolder_fss_introduction_r/img/chemin_arbo.png){.absolute top=400 left=75 width="80%"}
+
+## Concepts importants{.smaller} 
 
 Savoir ce que vous voulez faire avant de commencer à écrire du code. La plus grosse erreur est de commencer à écrire du code sans savoir ce que vous voulez faire.
 
@@ -255,15 +261,23 @@ Il est important de savoir comment importer ces données dans R.
 - hist()
 - summary()
 
-## Représentation graphique des données
+## Représentation graphique des données{.smaller}
 
-- Importance de la visualisation
-  - Qu'est-ce qu'une bonne visualisation graphique?
-  - Tufte
+### Principes généraux de la visualisation
 
-- ggplot2
+- Montrer les données
+- Choisir des visualisations appropriées : Quelles informations seront utiles ?
+- Réduire le bruit visuel
+  - Peut déformer les données et être source de distraction
+- Éviter les graphiques « spaghetti »
+- Commencer par du gris
+- Utiliser les couleurs de manière efficace
+- Ratio encre/information
+
+## Représentation graphique des données{.smaller}
+
+-ggplot2
   - Les layers
-
 - Shiny
   - Créer des applications interactives
 
