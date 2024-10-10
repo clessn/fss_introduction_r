@@ -242,6 +242,9 @@ Chaire de leadership en enseignement des sciences sociales numériques (CLESSN)
 - RStudio facilite l'utilisation de R
 - RStudio est un IDE (Integrated Development Environment)
 
+[Installer R](https://cran.r-project.org/)
+[Installer RStudio](https://www.rstudio.com/products/rstudio/download/)
+
 ## Une fois dans RStudio
 
 Les quatre fenêtres de RStudio
@@ -252,21 +255,36 @@ Comment écrire du code dans RStudio
 - Files
 - Plots
 
-## Concept important : Le chemin d'arborescence!{.smaller}
+## Concept important : Le chemin d'arborescence{.smaller}
 
-<br><br>
-
-> Vous devez savoir où vous êtes dans votre ordinateur pour pouvoir importer des données ou exporter des graphiques. 
-Votre R est toujours ouvert dans un dossier, et donc vous devez savoir où il est pour pouvoir importer des données.
-
-<br><br>
+- À tout moment vous devez savoir où vous êtes dans votre ordinateur pour pouvoir importer des données, exporter des graphiques ou mettre des fichiers en relation. 
+- Votre R est toujours ouvert dans un dossier, et donc vous devez savoir où il est pour pouvoir importer des données.
+- La fonction `getwd()` dans R permet de savoir où vous êtes
 
 ![](_SharedFolder_fss_introduction_r/img/chemin_arbo.png){.absolute top=400 left=75 width="80%"}
 
-## Concepts importants{.smaller} 
+## Concept important : Planifier avant de coder{.smaller} 
 
-Savoir ce que vous voulez faire avant de commencer à écrire du code. La plus grosse erreur est de commencer à écrire du code sans savoir ce que vous voulez faire.
+La plus grosse erreur est de commencer à écrire du code sans savoir ce que vous voulez faire.
 
+<<<<<<< HEAD
+=======
+- Clarifer vos objectifs: Qu'est-ce que vous voulez faire?
+  - Nettoyer des données?
+  - Faire un graphique?
+
+Les possibilités sont infinies, donc il est important de savoir où vous voulez aller.
+
+## Concept important : Décomposer le problème{.smaller}
+
+- Une fois que vous savez ce que vous voulez faire, il est important de décomposer le problème en petites étapes.
+- Un script R pour une seule tâche
+  - Bien nommer vos scripts pour savoir ce qu'ils font
+  - Exemple: `nettoyage_donnees.R`, `graphique.R`
+- Chaque script doit être clair et facile à comprendre
+- Commenter votre code
+
+>>>>>>> 02a1c5453c6a2f62b214a389195c1a2b115624b0
 ## Importer des données{.smaller}
 
 Les données sont souvent dans des fichiers Excel, CSV, ou autres.
@@ -274,6 +292,22 @@ Les données sont souvent dans des fichiers Excel, CSV, ou autres.
 On utilise des fonctions comme read.csv() pour lire les fichiers et on assigne l'opération à un objet.
 
 - `df <- read.csv("chemin/vers/data.csv")`
+
+Dans cette ligne de code il y a plusieurs éléments importants:
+
+- `df` est le nom de l'objet. Dans ce cas-ci, c'est un dataframe.
+- `<-` est l'opérateur d'assignation
+- `read.csv()` est la fonction qui permet de lire le fichier
+- `"chemin/vers/data.csv"` est l'argument qui est passée à la fonction. Ici il s'agit du chemin vers le fichier
+
+Il y a deux façons de spécifier le chemin:
+- Absolu: `/Users/username/Documents/projet/data/data.csv`
+- Relatif: `data/data.csv`
+
+## Importer des données
+
+Autres fonctions pour importer des données dépendamment du format:
+
 - `df <- readxl::read_excel("chemin/vers/data.xlsx")`
 - `df <- readRDS("chemin/vers/data.rds")`
 
