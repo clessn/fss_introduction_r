@@ -63,7 +63,9 @@ format:
 
 <br><br>
 
-![](_SharedFolder_fss_introduction_r/img/data.png){.absolute top=300 left=600 width="40%"}
+![](_SharedFolder_fss_introduction_r/img/binoculars.png){.absolute top=430 left=600 width="10%"} 
+
+![](_SharedFolder_fss_introduction_r/img/data.png){.absolute top=300 left=800 width="40%"}
 ![](_SharedFolder_fss_introduction_r/img/citizen.jpg){.absolute top=470 left=470 width="10%"}
 
 
@@ -76,7 +78,7 @@ Pouvoir de prédiction: prédire comment certaines variables ou facteurs influen
 
 ## Qu'est-ce que l'analyse de données?{.smaller}
 
-> L'analyse de données vise à explorer, décrire et interpréter des informations recueillies sur les comportements humains, les relations sociales et les phénomènes sociétaux. **Ce processus peut inclure des données quantitatives (comme des données issus d'enquêtes ou de recensements) et des données qualitatives (comme des entretiens ou des observations)**.
+> L'analyse de données vise à explorer, décrire et interpréter des informations recueillies sur les comportements humains, les relations sociales et les phénomènes sociétaux. **Ce processus peut inclure des données quantitatives (comme des données issus de sondages) et des données qualitatives (comme des entretiens ou des observations)**.
 
 ::: {.incremental}
 Principales étapes de l'analyse de données :
@@ -148,8 +150,10 @@ Chaque tâche spécifique lié à l'analyse de donnéees peut être automatisé 
 
 - Rendre les analyses reproductibles
 - Permet de partager les analyses
+  - Les scripts R permettent de partager facilement le travail
 - Permet de retracer les erreurs
 - Partager le code
+  - Encourage la transparence et la collaboration dans la recherche
 
 ## Pourquoi R?{.smaller}
 
@@ -186,13 +190,18 @@ Chaire de leadership en enseignement des sciences sociales numériques (CLESSN)
 
 ::::
 
-## Datagotchi
+## Datagotchi{.smaller}
 
-![](_SharedFolder_fss_introduction_r/img/datagotchi_usa.png){.absolute top=0 left=800 width="30%"}
+![](_SharedFolder_fss_introduction_r/img/datagotchi_usa.png){.absolute top=0 left=850 width="30%"}
 
+<<<<<<< HEAD
 - Utiliser le lifestyle pour prédire le vote
 - Utiliser R à travers le projet:
   - Prototypage en Shiny
+=======
+- Application utilisant des variables lifestyles pour prédire le vote
+- Utiliser R et l'analyse de données à travers ce projet:
+>>>>>>> ab83c9fc74581d726dcc8e813d694a405eaa22f1
   - Nettoyage des données
   - Analyse factorielle
   - Régressions et modèles
