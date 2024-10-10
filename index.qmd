@@ -188,22 +188,26 @@ Chaire de leadership en enseignement des sciences sociales numériques (CLESSN)
 
 ## Datagotchi
 
-- Application Web de sondage ludique
-- Sondage pilote
+![](_SharedFolder_fss_introduction_r/img/datagotchi_usa.png){.absolute top=0 left=800 width="30%"}
 
-##
+- Utiliser le lifestyle pour prédire le vote
+- Utiliser R à travers le projet:
+  - Nettoyage des données
+  - Analyse factorielle
+  - Régressions et modèles
+  - Visualisation
+
+## 
+
+![](_SharedFolder_fss_introduction_r/img/datagotchi_graph.png){.absolute top=0 left=0 width="200%"}
 
 ::: {.r-stack}
-
-![](_SharedFolder_fss_introduction_r/img/datagotchi_graph.png){.fragment .absolute top=0 left=0 width="200%"}
 
 ![](_SharedFolder_fss_introduction_r/img/cartogram.png){.fragment .absolute top=0 left=0 width="200%"}
 
 ![](_SharedFolder_fss_introduction_r/img/turnout.png){.fragment .absolute top=0 left=0 width="200%"}
 
 ::: 
-
-<!--NOTE: Mettre un beau graphique?-->
 
 ## Shiny Catalogue
 
