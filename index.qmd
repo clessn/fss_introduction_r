@@ -223,13 +223,12 @@ Chaire de leadership en enseignement des sciences sociales numériques (CLESSN)
 
 
 
-## Les LLM
-
-R permet d'intéragir avec les LLM. De mélanger les données avec la puissance des LLM permet de pousser l'analyse de données plus loin.
-
 ## Analyse textuelle
 
-R permet de faire de données qualitatives
+- Analyse de ton. Est-ce que le texte est positif ou négatif?
+- Catégorisation de texte. Est-ce que le texte parle de politique, de santé, de sport?
+- Analyse d'image
+- Transcription audio
 
 ## Installer R et RStudio
 
