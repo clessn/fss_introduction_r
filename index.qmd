@@ -192,6 +192,7 @@ Chaire de leadership en enseignement des sciences sociales numériques (CLESSN)
 
 - Utiliser le lifestyle pour prédire le vote
 - Utiliser R à travers le projet:
+  - Prototypage en Shiny
   - Nettoyage des données
   - Analyse factorielle
   - Régressions et modèles
@@ -209,9 +210,9 @@ Chaire de leadership en enseignement des sciences sociales numériques (CLESSN)
 
 ::: 
 
-## Shiny Catalogue
+## Visualisation des données
 
-Un élève de la CLESSN a crée un catalogue avec tous nos données en Shiny, un architecture web programmable en R
+
 
 ## Les LLM
 
@@ -282,8 +283,9 @@ Il est important de savoir comment importer ces données dans R.
 
 ## Représentation graphique des données{.smaller}
 
--ggplot2
+- ggplot2
   - Les layers
+  - Les geom
 - Shiny
   - Créer des applications interactives
 
