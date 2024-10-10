@@ -50,7 +50,7 @@ format:
 
 :::{.column}
 
-![](img/science.png){.absolute top=150 left=800 width="30%"}
+![](_SharedFolder_fss_introduction_r/img/science.png){.absolute top=150 left=800 width="30%"}
 :::
 
 ::::
@@ -63,8 +63,8 @@ format:
 
 <br><br>
 
-![](img/data.png){.absolute top=300 left=800 width="40%"}
-![](img/citizen.jpg){.absolute top=450 left=600 width="10%"}
+![](_SharedFolder_fss_introduction_r/img/data.png){.absolute top=300 left=800 width="40%"}
+![](_SharedFolder_fss_introduction_r/img/citizen.jpg){.absolute top=450 left=600 width="10%"}
 
 
 :::{.notes}
@@ -159,7 +159,11 @@ Chaque tâche spécifique lié à l'analyse de donnéees peut être automatisé 
 - Beaucoup de tutoriels orientés vers la science sociale
 - Important d'utiliser les mêmes outils que les chercheurs dans votre domaine
 
-## Présentation de la CLESSN
+## La CLESSN
+
+Chaire de leadership en enseignement des sciences sociales numériques
+
+![](https://www.clessn.com/assets/img/logo-black.svg)
 
 Présenter nos travaux et la variété de projets menés avec R
 
