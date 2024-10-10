@@ -78,11 +78,6 @@ Pouvoir de prédiction: prédire comment certaines variables ou facteurs influen
 
 ## Qu'est-ce que l'analyse de données?{.smaller}
 
-- Analyse de ton. Est-ce que le texte est positif ou négatif?
-- Catégorisation de texte. Est-ce que le texte parle de politique, de santé, de sport?
-- Analyse d'image
-- Transcription audio
-
 > L'analyse de données vise à explorer, décrire et interpréter des informations recueillies sur les comportements humains, les relations sociales et les phénomènes sociétaux. **Ce processus peut inclure des données quantitatives (comme des données issus de sondages) et des données qualitatives (comme des entretiens ou des observations)**.
 
 ::: {.incremental}
@@ -224,15 +219,25 @@ Chaire de leadership en enseignement des sciences sociales numériques (CLESSN)
 - R ne se limite pas à l'analyse statistique, il peut aussi être utilisé pour développer des applications web interactives
 
 ![](_SharedFolder_fss_introduction_r/img/catalogue.png){absolute top=0 left=0 width="20%"}
+<<<<<<< HEAD
 
 ## Visualisation des données
 
+=======
 
+## Mais derrière tout ça... R{.smaller}
+>>>>>>> 3991117b6b2df7d2e500cb6dbe5edbad451fdd51
+
+- Voici l'envers du décor : 
+
+![](_SharedFolder_fss_introduction_r/img/catalogue_code.png){absolute top=0 left=0 width="20%"}
 
 ## Analyse textuelle
 
-- Analyse de ton. Est-ce que le texte est positif ou négatif?
-- Catégorisation de texte. Est-ce que le texte parle de politique, de santé, de sport?
+- Analyse de ton. 
+  - Est-ce que le texte est positif ou négatif?
+- Catégorisation de texte 
+  - Est-ce que le texte parle de politique, de santé, de sport?
 - Analyse d'image
 - Transcription audio
 
@@ -268,6 +273,8 @@ Comment écrire du code dans RStudio
 
 La plus grosse erreur est de commencer à écrire du code sans savoir ce que vous voulez faire.
 
+<<<<<<< HEAD
+=======
 - Clarifer vos objectifs: Qu'est-ce que vous voulez faire?
   - Nettoyer des données?
   - Faire un graphique?
@@ -283,6 +290,7 @@ Les possibilités sont infinies, donc il est important de savoir où vous voulez
 - Chaque script doit être clair et facile à comprendre
 - Commenter votre code
 
+>>>>>>> 02a1c5453c6a2f62b214a389195c1a2b115624b0
 ## Importer des données{.smaller}
 
 Les données sont souvent dans des fichiers Excel, CSV, ou autres.
@@ -319,7 +327,7 @@ Autres fonctions pour importer des données dépendamment du format:
 - print()
 - summary()
 
-## Manipulation de données
+## Manipulation de données{.smaller}
 
 - Tidyverse
   - dplyr
