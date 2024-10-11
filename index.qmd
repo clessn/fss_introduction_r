@@ -229,20 +229,27 @@ Chaire de leadership en enseignement des sciences sociales numériques (CLESSN)
 
 ## Analyse textuelle
 
-- Analyse de ton. 
+- Analyse de ton 
   - Est-ce que le texte est positif ou négatif?
 - Catégorisation de texte 
   - Est-ce que le texte parle de politique, de santé, de sport?
 - Analyse d'image
 - Transcription audio
 
-## Installer R et RStudio
+## Installer R et RStudio{.smaller}
 
 - C'est quoi la différence entre R et RStudio?
 - R est le moteur, RStudio est l'interface
 - RStudio facilite l'utilisation de R
 - RStudio est un IDE (Integrated Development Environment)
 
+<<<<<<< HEAD
+=======
+<br><br>
+
+### À télécharger :
+
+>>>>>>> 4ade7acf97b5542cd4c304e10b08fc8e3582ae32
 - [Installer R](https://cran.r-project.org/)
 - [Installer RStudio](https://www.rstudio.com/products/rstudio/download/)
 
@@ -281,6 +288,7 @@ Chaire de leadership en enseignement des sciences sociales numériques (CLESSN)
 
 ![](_SharedFolder_fss_introduction_r/img/chemin_arbo.png){.absolute top=400 left=75 width="80%"}
 
+
 ## Concept important : Planifier avant de coder{.smaller} 
 
 La plus grosse erreur est de commencer à écrire du code sans savoir ce que vous voulez faire.
@@ -293,21 +301,24 @@ Les possibilités sont infinies, donc il est important de savoir où vous voulez
 
 ## Concept important : Décomposer le problème{.smaller}
 
-- Une fois que vous savez ce que vous voulez faire, il est important de décomposer le problème en petites étapes.
+- Une fois que vous savez ce que vous voulez faire, il est important de décomposer le problème en petites étapes
 - Un script R pour une seule tâche
   - Bien nommer vos scripts pour savoir ce qu'ils font
   - Exemples: 
     - `nettoyage_donnees.R`
     - `graphique.R`
 - Chaque script doit être clair et facile à comprendre
-- Commenter votre code
+- Commenter votre code avec des `#`
 
 ## Importer des données{.smaller}
 
-Les données sont souvent dans des fichiers Excel, CSV, ou autres.
+- Les données sont souvent dans des fichiers Excel, CSV, ou autres
+  - On utilise des fonctions comme `read.csv()` pour lire les fichiers et on assigne l'opération à un objet
+  - `df <- read.csv("chemin/vers/data.csv")`
 
-On utilise des fonctions comme read.csv() pour lire les fichiers et on assigne l'opération à un objet.
+<br>
 
+<<<<<<< HEAD
 ```r
 df <- read.csv("chemin/vers/data.csv")
 ```
@@ -346,15 +357,52 @@ Autres fonctions pour importer des données dépendamment du format:
 ![](_SharedFolder_fss_introduction_r/img/df_in_env.png){.absolute top=300 left=0 width="70%"}
 
 ## L'analyse descriptive des données
+=======
+- Dans cette ligne de code il y a plusieurs éléments importants:
+  - Le nom de l'objet : `df` dans ce cas-ci, c'est un dataframe
+  - L'opérateur d'assignation : `<-` 
+  - La fonction qui permet de lire le fichier : `read.csv()`
+  - Le chemin vers le fichier : `"chemin/vers/data.csv"`
+
+## Importer des données{.smaller}
+
+- Il y a deux façons de spécifier le chemin:
+  - Absolu: `/Users/username/Documents/projet/data/data.csv`
+  - Relatif: `data/data.csv`
+
+## Importer des données{.smaller}
+
+- Autres fonctions pour importer des données dépendamment du format:
+  - `df <- readxl::read_excel("chemin/vers/data.xlsx")`
+  - `df <- readRDS("chemin/vers/data.rds")`
+
+## L'analyse descriptive des données{.smaller}
+>>>>>>> 4ade7acf97b5542cd4c304e10b08fc8e3582ae32
 
 - Qu'est-ce que c'est?
 
-- table()
-- names()
-- hist()
-- print()
-- summary()
+- `table()`
+- `names()`
+- `hist()`
+- `print()`
+- `summary()`
 
+<<<<<<< HEAD
+=======
+## Manipulation de données{.smaller}
+
+- Tidyverse
+  - dplyr
+  - tidyr
+
+- Plusieurs fonctions pour manipuler les données
+  - `filter()`
+  - `select()`
+  - `mutate()`
+  - `group_by()`
+  - `summarize()`
+
+>>>>>>> 4ade7acf97b5542cd4c304e10b08fc8e3582ae32
 ## Représentation graphique des données{.smaller}
 
 ### Principes généraux de la visualisation
@@ -438,7 +486,7 @@ git config --global credential.helper store
 ![](img/git_github.png)
 
 
-## GitHub
+## GitHub{.smaller}
 
 - GitHub = Git + Internet
 
