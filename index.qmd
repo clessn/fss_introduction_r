@@ -243,13 +243,10 @@ Chaire de leadership en enseignement des sciences sociales numériques (CLESSN)
 - RStudio facilite l'utilisation de R
 - RStudio est un IDE (Integrated Development Environment)
 
-<<<<<<< HEAD
-=======
 <br><br>
 
 ### À télécharger :
 
->>>>>>> 4ade7acf97b5542cd4c304e10b08fc8e3582ae32
 - [Installer R](https://cran.r-project.org/)
 - [Installer RStudio](https://www.rstudio.com/products/rstudio/download/)
 
@@ -282,8 +279,8 @@ Chaire de leadership en enseignement des sciences sociales numériques (CLESSN)
 
 ## Concept important : Le chemin d'arborescence{.smaller}
 
-- À tout moment vous devez savoir où vous êtes dans votre ordinateur pour pouvoir importer des données, exporter des graphiques ou mettre des fichiers en relation. 
-- Votre R est toujours ouvert dans un dossier, et donc vous devez savoir où il est pour pouvoir importer des données.
+- À tout moment vous devez savoir où vous êtes dans votre ordinateur pour pouvoir importer des données, exporter des graphiques ou mettre des fichiers en relation
+- Votre R est toujours ouvert dans un dossier, et donc vous devez savoir où il est pour pouvoir importer des données
 - La fonction `getwd()` dans R permet de savoir où vous êtes
 
 ![](_SharedFolder_fss_introduction_r/img/chemin_arbo.png){.absolute top=400 left=75 width="80%"}
@@ -291,13 +288,16 @@ Chaire de leadership en enseignement des sciences sociales numériques (CLESSN)
 
 ## Concept important : Planifier avant de coder{.smaller} 
 
-La plus grosse erreur est de commencer à écrire du code sans savoir ce que vous voulez faire.
+#### La plus grosse erreur est de commencer à coder sans savoir ce que vous voulez faire
+
+<br>
 
 - Clarifer vos objectifs: Qu'est-ce que vous voulez faire?
   - Nettoyer des données?
   - Faire un graphique?
 
-Les possibilités sont infinies, donc il est important de savoir où vous voulez aller.
+Les possibilités sont infinies, donc il est important de savoir où vous voulez aller
+
 
 ## Concept important : Décomposer le problème{.smaller}
 
@@ -310,42 +310,44 @@ Les possibilités sont infinies, donc il est important de savoir où vous voulez
 - Chaque script doit être clair et facile à comprendre
 - Commenter votre code avec des `#`
 
+
 ## Importer des données{.smaller}
 
 - Les données sont souvent dans des fichiers Excel, CSV, ou autres
-  - On utilise des fonctions comme `read.csv()` pour lire les fichiers et on assigne l'opération à un objet
-  - `df <- read.csv("chemin/vers/data.csv")`
+  - On utilise des fonctions comme `read.csv()` pour lire les fichiers 
 
 <br>
 
-<<<<<<< HEAD
 ```r
 df <- read.csv("chemin/vers/data.csv")
 ```
+<br>
 
-Dans cette ligne de code il y a plusieurs éléments :
-
-1. `df` est le nom de l'objet. Dans ce cas-ci, c'est un dataframe.
-1. `<-` est l'opérateur d'assignation
-1. `read.csv()` est la fonction qui permet de lire le fichier
-1. `"chemin/vers/data.csv"` est l'argument qui est passée à la fonction. Ici il s'agit du chemin vers le fichier
+- Dans cette ligne de code il y a plusieurs éléments importants:
+  - Le nom de l'objet : `df` dans ce cas-ci, c'est un dataframe
+  - L'opérateur d'assignation : `<-` 
+  - La fonction qui permet de lire le fichier : `read.csv()`
+  - Le chemin vers le fichier : `"chemin/vers/data.csv"`
 
 ## Chemins d'arborescence{.smaller}
 
-Important de comprendre comment spécifier le chemin vers un fichier.
+#### Important de comprendre comment spécifier le chemin vers un fichier
 
-Il y a deux façons de spécifier le chemin:
+Voici les deux façons de spécifier le chemin :
 
 - Absolu: `/Users/username/Documents/projet/data/data.csv`
   - Utile seulement sur votre ordinateur, un autre utilisateur ne pourra pas utiliser le même chemin
 
 - Relatif: `data/data.csv`
   - Utile pour partager le code avec d'autres utilisateurs
+  
+<br>
 
-### Différence entre mac et windows
+#### Différence entre mac et windows
 
 - Mac: `/`
-- Windows: `\` Dans le cas de Windows, il faut s'assurer de changer les `\` pour des `/`
+- Windows: `\` (il faut s'assurer de changer les `\` pour des `/`)
+
 
 ## Importer des données{.smaller}
 
@@ -354,15 +356,8 @@ Autres fonctions pour importer des données dépendamment du format:
 - `df <- readxl::read_excel("chemin/vers/data.xlsx")`
 - `df <- readRDS("chemin/vers/data.rds")`
 
-![](_SharedFolder_fss_introduction_r/img/df_in_env.png){.absolute top=300 left=0 width="70%"}
+![](_SharedFolder_fss_introduction_r/img/df_in_env.png){.absolute top=300 left=150 width="70%"}
 
-## L'analyse descriptive des données
-=======
-- Dans cette ligne de code il y a plusieurs éléments importants:
-  - Le nom de l'objet : `df` dans ce cas-ci, c'est un dataframe
-  - L'opérateur d'assignation : `<-` 
-  - La fonction qui permet de lire le fichier : `read.csv()`
-  - Le chemin vers le fichier : `"chemin/vers/data.csv"`
 
 ## Importer des données{.smaller}
 
@@ -370,14 +365,11 @@ Autres fonctions pour importer des données dépendamment du format:
   - Absolu: `/Users/username/Documents/projet/data/data.csv`
   - Relatif: `data/data.csv`
 
-## Importer des données{.smaller}
-
-- Autres fonctions pour importer des données dépendamment du format:
+- Autres fonctions pour importer des données dépendamment du format :
   - `df <- readxl::read_excel("chemin/vers/data.xlsx")`
   - `df <- readRDS("chemin/vers/data.rds")`
 
 ## L'analyse descriptive des données{.smaller}
->>>>>>> 4ade7acf97b5542cd4c304e10b08fc8e3582ae32
 
 - Qu'est-ce que c'est?
 
@@ -387,8 +379,6 @@ Autres fonctions pour importer des données dépendamment du format:
 - `print()`
 - `summary()`
 
-<<<<<<< HEAD
-=======
 ## Manipulation de données{.smaller}
 
 - Tidyverse
@@ -402,7 +392,6 @@ Autres fonctions pour importer des données dépendamment du format:
   - `group_by()`
   - `summarize()`
 
->>>>>>> 4ade7acf97b5542cd4c304e10b08fc8e3582ae32
 ## Représentation graphique des données{.smaller}
 
 ### Principes généraux de la visualisation
