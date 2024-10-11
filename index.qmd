@@ -221,10 +221,6 @@ Chaire de leadership en enseignement des sciences sociales numériques (CLESSN)
 ![](_SharedFolder_fss_introduction_r/img/catalogue.png){absolute top=0 left=0 width="20%"}
 
 
-## Visualisation des données
-
-=======
-
 ## Mais derrière tout ça... R{.smaller}
 
 - Voici l'envers du décor : 
